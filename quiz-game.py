@@ -1,5 +1,4 @@
 import json, requests, random, html
-# select 3 random categories
 
 url             = "https://opentdb.com/api.php?amount=1&category=15&difficulty=easy"
 offline_message = "Sorry, there was a problem retreiving the question. Press enter to try again or type 'quit' to quit the game."
